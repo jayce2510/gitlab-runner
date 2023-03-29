@@ -5,8 +5,8 @@ docker compose up -d
 docker-compose exec gitlab-runner \                                                                                                          ─╯
 gitlab-runner register \
 --non-interactive \
---url https://gitlab.cali.vn/ \
---registration-token GR1348941sXrRxQdqj1i6wHUzX5xD \
+--url CHANGEME \
+--registration-token CHANGEME \
 --executor docker \
 --description "docker-runner-219" \
 --docker-image "gitlab/gitlab-runner:alpine" \
