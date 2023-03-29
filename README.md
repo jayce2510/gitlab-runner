@@ -1,5 +1,3 @@
-# gitlab-runner
-
 # install CLI
 
    ```
