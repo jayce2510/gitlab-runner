@@ -1,4 +1,4 @@
-# install CLI
+# Install CLI
 
 Clone and edit install-gitlab-runner.sh file
 
