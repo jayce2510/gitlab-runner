@@ -1,5 +1,5 @@
 #run the compose file
-docker compose up -d
+docker-compose up -d
 
 #register the runner inside the container
 docker-compose exec gitlab-runner \
