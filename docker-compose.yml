@@ -7,4 +7,5 @@ services:
     restart: always
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./gitlab-runner:/etc/gitlab-runner
+      - ./gitlab-runner/etc:/etc/gitlab-runner
+      - ./gitlab-runner/home:/home/gitlab-runner
